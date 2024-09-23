@@ -4,62 +4,39 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
-}
-header {
-  background-color: #1f2937;
-  padding: 20px;
-  color: whitesmoke;
 }
 
 ul {
   display: flex;
 }
-li.logo {
-  margin-right: auto;
-}
-
-ul a {
-  text-decoration: none;
-  color: gray;
-  margin-right: 20px;
-}
 ul li {
   list-style-type: none;
-  margin: 12px;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
 }
 .navbar {
-  margin-top: 12px;
+  margin-left: auto;
+}
+
+img {
+  display: block;
+  width: 400px;
 }
 section {
-  display: flex;
-}
-button {
-  margin-top: 12px;
-  padding: 12px 30px;
-  border-radius: 12px;
-  background-color: #3b82f6;
-  color: white;
-}
-.left {
-  display: flex;
+  background-color: #1f2937;
 }
 
-.right {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid red;
-  background-color: gray;
-  height: 150px;
-}
-.img {
-  width: 300px;
-  height: 150px;
-
-  margin: 0 auto;
+h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
 
 footer {
@@ -67,4 +44,88 @@ footer {
   background-color: #1f2937;
   text-align: center;
   padding: 20px;
+}
+.info {
+  background-color: #ffffff;
+}
+.info h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 20px;
+  color: whitesmoke;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  /* margin-left: -200px; */
+}
+.header-left img {
+  margin-left: 50px;
+}
+.header-left p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  padding: 3px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5px;
+}
+.info h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+.info p {
+  margin-bottom: 30px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.boxes p {
+  margin-top: 5px;
+  text-align: center;
+}
+.box {
+  border: 3px solid #3882f6;
+  width: 200px;
+  height: 200px;
+  border-radius: 9px;
+  text-align: justify;
+}
+.quote {
+  background-color: #e5e7eb;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  padding: 40px 0;
+  width: 600px;
+  text-align: justify;
+  margin: 0 auto;
+}
+.quote-author {
+  float: right;
+  font-size: 20px;
+  font-weight: 900;
 }
