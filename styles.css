@@ -129,3 +129,17 @@ button {
   font-size: 20px;
   font-weight: 900;
 }
+.sign-up {
+  background-color: #ffffff;
+  padding: 30px;
+  color: white;
+}
+.call-to-action {
+  font-weight: 900;
+}
+.action-item {
+  background-color: #3882f6;
+  padding: 30px;
+  border-radius: 9px;
+  display: flex;
+}
