@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
 body {
   max-width: 1300px;
   margin: 0 auto;
@@ -133,7 +132,7 @@ button {
   background-color: #ffffff;
   padding: 30px;
   color: white;
-  padding: 10%;
+  padding: 7%;
 }
 .call-to-action {
   font-weight: 900;
@@ -147,8 +146,7 @@ button {
   border-radius: 9px;
   display: flex;
   justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 40px 10%;
 }
 .sign-up button {
   border: 1px solid white;
