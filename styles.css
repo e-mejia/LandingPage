@@ -133,13 +133,23 @@ button {
   background-color: #ffffff;
   padding: 30px;
   color: white;
+  padding: 10%;
 }
 .call-to-action {
   font-weight: 900;
+}
+.sign-up-action {
+  color: lightgray;
 }
 .action-item {
   background-color: #3882f6;
   padding: 30px;
   border-radius: 9px;
   display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.sign-up button {
+  border: 1px solid white;
 }
