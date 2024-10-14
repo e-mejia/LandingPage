@@ -6,70 +6,94 @@
   box-sizing: border-box;
 }
 
-header {
-  height: 30vh;
+.header {
   background-color: #1f2937;
 }
-ul {
+.nav {
   display: flex;
-  font-family: Roboto;
-  font-size: 24px;
+  justify-content: space-between;
+  padding: 100px;
 }
 .logo {
   font-size: 24px;
   color: #f9faf8;
-  margin-right: auto;
 }
-ul li {
-  padding: 12px;
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+li {
   list-style-type: none;
 }
 a {
-  color: #6d747d;
   text-decoration: none;
+  color: #6d747d;
 }
 
-.left-awesome {
-  font-size: 40px;
+.awesome {
+  font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
-
-.header-section {
-  display: flex;
-  font-family: Roboto, sans-serif;
-  justify-content: space-evenly;
-  gap: 20px;
-  padding-top: 3%;
-}
-.header-section p {
+.hero-subtext {
   font-size: 18px;
-  color: #e5e7eb;
-}
-.header-section .left-awesome {
-  font-size: 48px;
-}
-.header-section .left-small-text {
   color: #6d747d;
 }
-.middle-one {
-  height: 30vh;
-  background-color: #ffffff;
-}
-.middle-two {
-  height: 20vh;
-  background-color: #e5e7eb;
-}
-.middle-three {
-  height: 15vh;
+.header-hero {
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
 img {
-  display: block;
-  width: 300px;
+  max-height: 300px;
+}
+button {
+  background-color: #3882f6;
+  padding: 5px 30px 5px 30px;
+  margin-top: 7px;
+  font-size: 0.9em;
+  color: #ffffff;
+  border-radius: 5px;
+}
+h2 {
+  text-align: center;
+  padding: 30px;
+}
+.box {
+  border: 3px solid #3677e1;
+  width: 200px;
   height: 200px;
+  border-radius: 10px;
+}
+.box-container {
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.box-text {
+  text-align: center;
+  padding-top: 7px;
 }
 
-.footer {
-  height: 5vh;
-  background-color: #000000;
+.section2 {
+  text-align: center;
+  background-color: #e5e7eb;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  text-align: center;
+}
+.quote-author {
+  font-size: 18px;
+  font-weight: 900;
+  justify-self: end;
+  margin-left: 550px;
 }
