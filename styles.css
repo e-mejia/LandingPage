@@ -12,7 +12,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 100px;
+  padding: 50px;
 }
 .logo {
   font-size: 24px;
@@ -115,4 +115,10 @@ h2 {
 }
 button {
   border: 3px solid white;
+}
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  color: white;
+  padding: 20px;
 }
