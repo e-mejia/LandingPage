@@ -70,7 +70,7 @@ h2 {
 .box-container {
   display: flex;
   padding: 50px;
-  justify-content: space-evenly;
+  justify-content: space-around;
   gap: 20px;
 }
 .box-text {
@@ -96,4 +96,23 @@ h2 {
   font-weight: 900;
   justify-self: end;
   margin-left: 550px;
+}
+
+.section3 {
+  padding: 55px 88px;
+}
+.action-items {
+  display: flex;
+  padding: 23px;
+
+  background-color: #3677e1;
+  border-radius: 7px;
+  justify-content: space-around;
+  color: White;
+}
+.action-call-text {
+  font-weight: bold;
+}
+button {
+  border: 3px solid white;
 }
